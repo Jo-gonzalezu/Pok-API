@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#pokemon_box {
+    position: relative;
+    display: block;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    margin: 20px;
+    background-image: url("img/background.jpg");
+    background-position-y: center;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+}
+
+
+#pokemon_uno_boton {
+    display: block; z-index:10;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#pokemon_dos_boton {
+    display: block; z-index:10;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#pokemon_tres_boton {
+    display: block; z-index:10;
+    margin-left: auto;
+    margin-right: auto;
+}
